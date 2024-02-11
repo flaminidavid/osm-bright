@@ -179,6 +179,9 @@ come in as well.
 #bridge[render='3_inline'][zoom>=11][zoom<=20]{
   /* -- colors & styles -- */
   line-color: @standard_fill;
+  [stylegroup='noauto'] {
+    line-color: #d5591c;
+  }
   [type='motorway'],
   [type='motorway_link'] {
     line-color: @motorway_fill;
